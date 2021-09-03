@@ -1,6 +1,6 @@
 {
   "name": "@jainpunit7000/js-notepad",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "publishConfig": {
     "access": "public"
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@js-notepad/local-client": "^1.0.0"
+    "@js-notepad/local-client": "^1.0.1"
   },
   "devDependencies": {
-    "@js-notepad/local-api": "^1.0.0",
+    "@js-notepad/local-api": "^1.0.1",
     "@types/node": "^14.14.22",
     "commander": "^8.1.0",
     "esbuild": "0.8.26",
