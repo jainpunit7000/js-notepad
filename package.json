@@ -4,5 +4,6 @@
   "devDependencies": {},
   "scripts": {
     "start": "lerna run start --parallel"
-  }
+  },
+  "dependencies": {}
 }

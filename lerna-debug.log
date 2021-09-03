@@ -1,0 +1,118 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   push: false,
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'C:\\Users\\jainp\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath H:\js-notepad
+3 verbose session 8c7e196adf54f7f9
+4 verbose user-agent lerna/3.22.1/node@v12.14.0+x64 (win32)
+5 silly argv {
+5 silly argv   _: [ 'publish' ],
+5 silly argv   push: false,
+5 silly argv   composed: 'publish',
+5 silly argv   lernaVersion: '3.22.1'
+5 silly argv }
+6 verbose rootPath H:\js-notepad
+7 info current version 1.0.0
+8 silly isAnythingCommitted
+9 verbose isAnythingCommitted 1
+10 silly currentBranch
+11 verbose currentBranch master
+12 silly hasTags
+13 verbose hasTags true
+14 silly git-describe.sync "v1.0.0-1-g0acf1ef" => {"lastTagName":"v1.0.0","lastVersion":"v1.0.0","refCount":"1","sha":"0acf1ef","isDirty":false}
+15 info Looking for changed packages since v1.0.0
+16 silly checking diff packages/cli
+17 silly found diff in packages/cli/package.json
+18 verbose filtered diff [ 'packages/cli/package.json' ]
+19 silly checking diff packages/local-api
+20 silly found diff in packages/local-api/package.json
+21 verbose filtered diff [ 'packages/local-api/package.json' ]
+22 silly checking diff packages/local-client
+23 silly found diff in packages/local-client/package.json
+24 verbose filtered diff [ 'packages/local-client/package.json' ]
+25 verbose updated @jainpunit7000/js-notepad
+26 verbose updated @js-notepad/local-api
+27 verbose updated @js-notepad/local-client
+28 verbose git-describe undefined => "v1.0.0-1-g0acf1ef"
+29 silly git-describe parsed => {"lastTagName":"v1.0.0","lastVersion":"v1.0.0","refCount":"1","sha":"0acf1ef","isDirty":false}
+30 info execute Skipping git push
+31 info execute Skipping releases
+32 silly lifecycle No script for "preversion" in "root", continuing
+33 silly lifecycle No script for "preversion" in "@js-notepad/local-client", continuing
+34 silly lifecycle No script for "version" in "@js-notepad/local-client", continuing
+35 silly lifecycle No script for "preversion" in "@js-notepad/local-api", continuing
+36 silly lifecycle No script for "version" in "@js-notepad/local-api", continuing
+37 silly lifecycle No script for "preversion" in "@jainpunit7000/js-notepad", continuing
+38 silly lifecycle No script for "version" in "@jainpunit7000/js-notepad", continuing
+39 silly lifecycle No script for "version" in "root", continuing
+40 silly gitAdd [
+40 silly gitAdd   'packages/local-client/package.json',
+40 silly gitAdd   'packages/local-client/package-lock.json',
+40 silly gitAdd   'packages/local-api/package.json',
+40 silly gitAdd   'packages/local-api/package-lock.json',
+40 silly gitAdd   'packages/cli/package.json',
+40 silly gitAdd   'packages/cli/package-lock.json',
+40 silly gitAdd   'lerna.json'
+40 silly gitAdd ]
+41 silly gitCommit v1.0.1
+42 verbose git [ 'commit', '-m', 'v1.0.1' ]
+43 silly gitTag v1.0.1
+44 verbose git [ 'tag', 'v1.0.1', '-m', 'v1.0.1' ]
+45 silly lifecycle No script for "postversion" in "@jainpunit7000/js-notepad", continuing
+46 silly lifecycle No script for "postversion" in "@js-notepad/local-api", continuing
+47 silly lifecycle No script for "postversion" in "@js-notepad/local-client", continuing
+48 silly lifecycle No script for "postversion" in "root", continuing
+49 info publish Publishing packages to npm...
+50 info Verifying npm credentials
+51 verbose Retrieving npm user profile
+52 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 1508ms
+53 silly npm profile get received {"tfa":false,"name":"jainpunit7000","email":"jainpunit7000@gmail.com","email_verified":true,"created":"2021-09-02T20:22:44.463Z","updated":"2021-09-02T20:22:44.460Z","cidr_whitelist":null}
+54 silly get npm username received {"username":"jainpunit7000","tfa":false,"name":"jainpunit7000","email":"jainpunit7000@gmail.com","email_verified":true,"created":"2021-09-02T20:22:44.463Z","updated":"2021-09-02T20:22:44.460Z","cidr_whitelist":null}
+55 silly verifyNpmPackageAccess
+56 http fetch GET 200 https://registry.npmjs.org/-/org/jainpunit7000/package?format=cli 456ms
+57 info Checking two-factor auth mode
+58 verbose Retrieving npm user profile
+59 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 395ms
+60 silly npm profile get received {"tfa":false,"name":"jainpunit7000","email":"jainpunit7000@gmail.com","email_verified":true,"created":"2021-09-02T20:22:44.463Z","updated":"2021-09-02T20:22:44.460Z","cidr_whitelist":null}
+61 silly 2FA false
+62 warn ENOLICENSE Packages @jainpunit7000/js-notepad, @js-notepad/local-api, and @js-notepad/local-client are missing a license.
+62 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+62 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+63 silly getCurrentSHA
+64 verbose getCurrentSHA 73c242eda1a0c9b5a797a16a9d4bafbe51e6fd80
+65 silly lifecycle No script for "prepublish" in "root", continuing
+66 silly lifecycle No script for "prepare" in "root", continuing
+67 silly lifecycle No script for "prepublishOnly" in "root", continuing
+68 silly lifecycle No script for "prepack" in "root", continuing
+69 verbose pack-directory packages\local-client
+70 silly lifecycle No script for "prepublish" in "@js-notepad/local-client", continuing
+71 silly lifecycle No script for "prepare" in "@js-notepad/local-client", continuing
+72 silly lifecycle "prepublishOnly" starting in "@js-notepad/local-client"
+73 info lifecycle @js-notepad/local-client@1.0.1~prepublishOnly: @js-notepad/local-client@1.0.1
+74 verbose lifecycle @js-notepad/local-client@1.0.1~prepublishOnly: unsafe-perm in lifecycle true
+75 verbose lifecycle @js-notepad/local-client@1.0.1~prepublishOnly: PATH: C:\Users\jainp\AppData\Roaming\npm\node_modules\lerna\node_modules\npm-lifecycle\node-gyp-bin;H:\js-notepad\packages\local-client\node_modules\.bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\MinGW\bin;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\jainp\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\jainp\Anaconda3;C:\Users\jainp\Anaconda3\Library\mingw-w64\bin;C:\Users\jainp\Anaconda3\Library\usr\bin;C:\Users\jainp\Anaconda3\Library\bin;C:\Users\jainp\Anaconda3\Scripts;C:\Users\jainp\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\jainp\AppData\Local\Programs\Python\Python38-32\;C:\Users\jainp\AppData\Local\Microsoft\WindowsApps;C:\Users\jainp\AppData\Roaming\npm;C:\Users\jainp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.1\bin;;C:\Program Files\heroku\bin;C:\src\flutter\bin;C:\Program Files (x86)\Nmap
+76 verbose lifecycle @js-notepad/local-client@1.0.1~prepublishOnly: CWD: H:\js-notepad\packages\local-client
+77 silly lifecycle @js-notepad/local-client@1.0.1~prepublishOnly: Args: [ '/d /s /c', 'npm run build' ]
+78 silly lifecycle @js-notepad/local-client@1.0.1~prepublishOnly: Returned: code: 0  signal: null
+79 silly lifecycle "prepublishOnly" finished in "@js-notepad/local-client"
+80 silly lifecycle No script for "prepack" in "@js-notepad/local-client", continuing
+81 error ZlibError: zlib: invalid stored block lengths
+81 error     at Unzip.<anonymous> (C:\Users\jainp\AppData\Roaming\npm\node_modules\lerna\node_modules\minizlib\index.js:73:52)
+81 error     at Unzip.emit (events.js:215:7)
+81 error     at Zlib.zlibOnError [as onerror] (zlib.js:173:8)
+81 error     at processChunkSync (zlib.js:416:12)
+81 error     at Unzip.ZlibBase._processChunk (zlib.js:391:12)
+81 error     at Unzip.write (C:\Users\jainp\AppData\Roaming\npm\node_modules\lerna\node_modules\minizlib\index.js:140:30)
+81 error     at Object.write (C:\Users\jainp\AppData\Roaming\npm\node_modules\lerna\node_modules\tar\lib\parse.js:305:58)
+81 error     at Yallist.<anonymous> (C:\Users\jainp\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass\index.js:374:18)
+81 error     at Yallist.forEach (C:\Users\jainp\AppData\Roaming\npm\node_modules\lerna\node_modules\yallist\yallist.js:156:8)
+81 error     at ReadStream.emit (C:\Users\jainp\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass\index.js:373:20)
+81 error     at ReadStream.emit (C:\Users\jainp\AppData\Roaming\npm\node_modules\lerna\node_modules\fs-minipass\index.js:154:22)
+81 error     at ReadStream.write (C:\Users\jainp\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass\index.js:163:17)
+81 error     at ReadStream.[_handleChunk] (C:\Users\jainp\AppData\Roaming\npm\node_modules\lerna\node_modules\fs-minipass\index.js:131:19)
+81 error     at ReadStream.[_onread] (C:\Users\jainp\AppData\Roaming\npm\node_modules\lerna\node_modules\fs-minipass\index.js:109:32)
+81 error     at C:\Users\jainp\AppData\Roaming\npm\node_modules\lerna\node_modules\fs-minipass\index.js:101:22
