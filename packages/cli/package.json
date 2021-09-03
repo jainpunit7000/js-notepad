@@ -1,5 +1,5 @@
 {
-  "name": "js-notepad",
+  "name": "@jainpunit7000/js-notepad",
   "version": "1.0.0",
   "description": "",
   "publishConfig": {
@@ -25,5 +25,6 @@
     "commander": "^8.1.0",
     "esbuild": "0.8.26",
     "typescript": "^4.1.3"
-  }
+  },
+  "gitHead": "eca41b978accef68a22948425984be62e488a5bd"
 }
