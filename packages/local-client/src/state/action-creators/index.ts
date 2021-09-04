@@ -85,7 +85,7 @@ export const fetchCells = () => {
         type: ActionType.FETCH_CELLS_COMPLETE,
         payload: data,
       });
-    } catch (err) {
+    } catch (err : any) {
       dispatch({
         type: ActionType.FETCH_CELLS_ERROR,
         payload: err.message,
@@ -104,7 +104,7 @@ export const saveCells = () => {
 
     try {
       await axios.post('/cells', { cells });
-    } catch (err) {
+    } catch (err : any) {
       dispatch({
         type: ActionType.SAVE_CELLS_ERROR,
         payload: err.message,
